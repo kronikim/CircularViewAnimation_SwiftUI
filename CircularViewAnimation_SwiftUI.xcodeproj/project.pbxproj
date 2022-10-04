@@ -11,6 +11,8 @@
 		D886864F28ECE9EC00A9A033 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D886864E28ECE9EC00A9A033 /* ContentView.swift */; };
 		D886865128ECE9EF00A9A033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D886865028ECE9EF00A9A033 /* Assets.xcassets */; };
 		D886865428ECE9EF00A9A033 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D886865328ECE9EF00A9A033 /* Preview Assets.xcassets */; };
+		D886865B28ECEABD00A9A033 /* DrawCircularShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D886865A28ECEABD00A9A033 /* DrawCircularShape.swift */; };
+		D886865D28ECED4E00A9A033 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D886865C28ECED4E00A9A033 /* CircularView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D886864E28ECE9EC00A9A033 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D886865028ECE9EF00A9A033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D886865328ECE9EF00A9A033 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D886865A28ECEABD00A9A033 /* DrawCircularShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawCircularShape.swift; sourceTree = "<group>"; };
+		D886865C28ECED4E00A9A033 /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				D886864E28ECE9EC00A9A033 /* ContentView.swift */,
 				D886865028ECE9EF00A9A033 /* Assets.xcassets */,
 				D886865228ECE9EF00A9A033 /* Preview Content */,
+				D886865A28ECEABD00A9A033 /* DrawCircularShape.swift */,
+				D886865C28ECED4E00A9A033 /* CircularView.swift */,
 			);
 			path = CircularViewAnimation_SwiftUI;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D886864F28ECE9EC00A9A033 /* ContentView.swift in Sources */,
+				D886865D28ECED4E00A9A033 /* CircularView.swift in Sources */,
 				D886864D28ECE9EC00A9A033 /* CircularViewAnimation_SwiftUIApp.swift in Sources */,
+				D886865B28ECEABD00A9A033 /* DrawCircularShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
